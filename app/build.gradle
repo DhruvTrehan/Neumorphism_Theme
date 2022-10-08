@@ -52,9 +52,4 @@ dependencies {
     //New Added
     implementation 'com.github.fornewid:neumorphism:0.3.2'
 
-    //lottie Animation
-    implementation 'com.airbnb.android:lottie:5.2.0'
-
-    implementation "androidx.datastore:datastore-preferences:1.0.0"
-
 }
