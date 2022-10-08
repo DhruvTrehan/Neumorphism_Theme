@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_bg"
+    android:id="@+id/main"
     app:layoutDescription="@xml/activity_main_scene"
     tools:context=".MainActivity">
 
@@ -134,9 +135,10 @@
         <LinearLayout
             android:id="@+id/ll_noacc"
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:orientation="horizontal"
+            android:padding="2dp"
             android:gravity="center">
 
             <TextView
